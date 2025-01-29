@@ -2,7 +2,7 @@ from gravitationalAttraction import *
 import pygame,sys
 
 BLACK = (0,0,0)
-WIDTH,HEIGHT = 1000,1000
+WIDTH,HEIGHT = 800,800
 WINDOW = pygame.display.set_mode((WIDTH,HEIGHT))
 clock = pygame.time.Clock()
 
@@ -16,7 +16,7 @@ def update(attractor,movers):
 
 def main():
 	movers = [Mover(random.randint(50,950),random.randint(50,950),random.randint(5,20)) for i in range(1)]
-	attractor = Attractor(500,500,30)
+	attractor = Attractor(WIDTH // 2,HEIGHT // 2,30)
 	while True:
 		clock.tick(30)
 		for event in pygame.event.get():
