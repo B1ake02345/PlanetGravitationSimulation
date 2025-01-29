@@ -1,4 +1,4 @@
-# 🔦 Planet Gravitation Simulation
+# 🪐 Planet Gravitation Simulation
 
 For a fun project, I decided to create a Solar System gravity simulator, allowing the creation of planets orbiting around a central Sun.
 
